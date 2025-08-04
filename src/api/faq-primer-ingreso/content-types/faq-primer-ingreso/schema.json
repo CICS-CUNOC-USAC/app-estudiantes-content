@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "faq_primer_ingresos",
+  "info": {
+    "singularName": "faq-primer-ingreso",
+    "pluralName": "faq-primer-ingresos",
+    "displayName": "FAQ Primer Ingreso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    }
+  }
+}
