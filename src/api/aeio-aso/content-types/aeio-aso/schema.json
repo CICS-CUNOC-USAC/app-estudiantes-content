@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "aeio_asos",
+  "info": {
+    "singularName": "aeio-aso",
+    "pluralName": "aeio-asos",
+    "displayName": "AEIO"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
