@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "cics_asos",
+  "info": {
+    "singularName": "cics-aso",
+    "pluralName": "cics-asos",
+    "displayName": "CICS"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
