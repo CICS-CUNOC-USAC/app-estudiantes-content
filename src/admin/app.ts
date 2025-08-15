@@ -1,0 +1,85 @@
+import type { StrapiApp } from "@strapi/strapi/admin";
+
+export default {
+  config: {
+    locales: [
+      // 'ar',
+      // 'fr',
+      // 'cs',
+      // 'de',
+      // 'dk',
+      // 'es',
+      // 'he',
+      // 'id',
+      // 'it',
+      // 'ja',
+      // 'ko',
+      // 'ms',
+      // 'nl',
+      // 'no',
+      // 'pl',
+      // 'pt-BR',
+      // 'pt',
+      // 'ru',
+      // 'sk',
+      // 'sv',
+      // 'th',
+      // 'tr',
+      // 'uk',
+      // 'vi',
+      // 'zh-Hans',
+      // 'zh',
+    ],
+    theme: {
+      light: {
+        colors: {
+          primary100: "#fef3c7",
+          primary200: "#fde68a",
+          primary500: "#f59e0b",
+          buttonPrimary500: "#f59e0b",
+          primary600: "#d97706",
+          buttonPrimary600: "#d97706",
+          primary700: "#b45309",
+
+          // Neutral
+          neutral0: "#fafafa",
+          neutral100: "#fafaf9",
+          neutral200: "#e7e5e4",
+          neutral300: "#d6d3d1",
+          neutral400: "#a8a29e",
+          neutral500: "#78716c",
+          neutral600: "#57534e",
+          neutral700: "#44403c",
+          neutral800: "#292524",
+          neutral900: "#1c1917",
+        },
+      },
+      dark: {
+        colors: {
+          primary100: "#451a03",
+          primary150: "#6f4c3e",
+          primary200: "#78350f",
+          primary500: "#d97706",
+          buttonPrimary500: "#d97706",
+          primary600: "#b45309",
+          buttonPrimary600: "#b45309",
+          primary700: "#fcd34d",
+
+          neutral0: "#171717",
+          neutral100: "#262626",
+          neutral150: "#404040",
+          neutral200: "#525252",
+          neutral300: "#737373",
+          neutral400: "#a3a3a3",
+          neutral500: "#d4d4d4",
+          neutral600: "#e5e5e5",
+          neutral700: "#f5f5f5",
+          neutral800: "#fafafa",
+        },
+      },
+    },
+  },
+  bootstrap(app: StrapiApp) {
+    console.log(app);
+  },
+};
